@@ -300,7 +300,7 @@ export default function HackerPortfolio() {
           <div style={S.navLogo}>
             <Terminal size={18} color="#00ff41" />
             <span style={{ color: "#00ff41" }}>&gt;_</span>
-            <span style={{ color: "#fff" }}>Yash</span>
+            <span style={{ color: "#fff" }}>Yash Chandankhede</span>
           </div>
 
           {!isMobile && (
