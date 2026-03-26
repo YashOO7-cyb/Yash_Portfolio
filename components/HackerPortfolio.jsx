@@ -297,7 +297,7 @@ export default function HackerPortfolio() {
       {/* ── Nav ────────────────────────────────────────────────────── */}
       <nav style={S.nav}>
         <div style={S.navInner}>
-          <a href="#hero" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          <a href="https://yash-portfolio-cyber.vercel.app/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             style={{ ...S.navLogo, textDecoration: "none", cursor: "pointer" }}>
             <Terminal size={18} color="#00ff41" />
             <span style={{ color: "#00ff41" }}>&gt;_</span>
