@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💼 My Portfolio (Next.js)
 
-## Getting Started
+## 📌 Overview
 
-First, run the development server:
+This is a personal portfolio website built using **Next.js (App Router)** and **Tailwind CSS**. It showcases my projects, resume, and skills with a modern and responsive UI.
+
+---
+
+## 🚀 Features
+
+* 🌐 Built with **Next.js 13+ App Router**
+* 🎨 Styled using **Tailwind CSS**
+* 📁 Modular component structure
+* 🧑‍💻 Dedicated portfolio component (`HackerPortfolio.jsx`)
+* 📄 Resume download support
+* 🖼️ Profile image integration
+* ⚡ Optimized performance with Next.js
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** Next.js
+* **Styling:** Tailwind CSS
+* **Language:** JavaScript (React)
+* **Linting:** ESLint
+
+---
+
+## 📂 Project Structure
+
+```bash
+MY-PORTFOLIO/
+│── app/
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+│
+│── components/
+│   └── HackerPortfolio.jsx
+│
+│── public/
+│   ├── profile.jpeg
+│   ├── resume.pdf
+│   ├── *.svg
+│
+│── package.json
+│── tailwind.config.js
+│── next.config.js
+│── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/YashOO7-cyb/my-portfolio.git
+cd my-portfolio
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4️⃣ Open in Browser
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Assets Used
 
-To learn more about Next.js, take a look at the following resources:
+* **Profile Image:** `/public/profile.jpeg`
+* **Resume:** `/public/resume.pdf`
+* **Icons:** SVG files from `/public`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧩 Main Components
 
-## Deploy on Vercel
+* `HackerPortfolio.jsx` → Main UI component for portfolio display
+* `page.js` → Entry point of the application
+* `layout.js` → Global layout wrapper
+* `globals.css` → Global styles
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Future Improvements
+
+* 🌙 Dark/Light mode toggle
+* 📬 Contact form integration
+* 📊 Project analytics dashboard
+* 🌐 Deployment with custom domain
+* 🔗 Social media integrations
+
+---
+
+## 🚀 Deployment
+
+You can deploy easily using:
+
+* **Vercel (Recommended)**
+
+```bash
+npm run build
+```
+
+Then upload to Vercel or run:
+
+```bash
+npx vercel
+```
+
+---
+
+## ⚠️ Notes
+
+* Ensure Tailwind CSS is properly configured
+* Keep assets optimized inside `/public`
+* Follow component-based structure for scalability
+
+---
+
+## 👨‍💻 Author
+
+**Yash Chandankhede**
+Cybersecurity Enthusiast | B.Tech Student
+
+---
+
+## ⭐ Contribute
+
+If you’d like to improve this portfolio:
+
+* Fork the repo
+* Create a new branch
+* Submit a Pull Request
+
+---
